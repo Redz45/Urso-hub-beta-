@@ -49,3 +49,11 @@ end })
 Tabs.Players:AddButton({ Title = "teleporte", Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Toolbox231/Toolbox231/refs/heads/main/xz.txt"))()
 end })
+
+Tabs.Players:AddButton({ Title = "emotes grátis", Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-all-emotes-6849"))()
+end })
+
+Tabs.Main:AddButton({ Title = "infinity yield", Callback = function() 
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Infinity-Yield-Loader-Script-30985"))()
+ end })
